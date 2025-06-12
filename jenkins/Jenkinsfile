@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     checkout scm
-                    gv = load "script.groovy"
+                    gv = load "jenkins/script.groovy"
                 }
             }
         }    
