@@ -43,7 +43,7 @@ pipeline {
             // }
             steps {
                 script {
-                    gv.buildApp(NEW_VERSION)
+                    gv.buildApp()
                 }
             }
         }
